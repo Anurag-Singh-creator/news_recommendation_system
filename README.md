@@ -25,18 +25,30 @@ We need to ensure the system:
 ## Data Dictionary:
 
 1. **consumer_transactions:** This dataset captures our customer interactions.
-    - `event_timestamp`: When the user interacted with articles.
-    - `interaction_type`: Types include content_commented_on, content_followed, etc.
-    - `item_id`: ID of the interacted item.
-    - `consumer_id`: ID of the interacting consumer.
-    - ... (continue for other fields)
+    - `event_timestamp`: Timestamp at which the user interacted with the news articles.
+    - `interaction_type`: Type of interaction made by the user. Types include content_commented_on, content_followed, content_liked, content_saved, content_watched.
+    - `item_id`: ID of the item with which the user interacted.
+    - `consumer_id`: ID of the consumer who interacted with the item.
+    - `consumer_session_id`: ID of the session during which the user interacted with the item.
+    - `consumer_device_info`: Information about the device used by the consumer.
+    - `consumer_location`: Location of the consumer.
+    - `country`: Country of the consumer.
 
 2. **platform_content:** Contains details of our platform's news articles.
-    - `event_timestamp`: Interaction time.
-    - `interaction_type`: Type of interaction.
-    - `item_id`: Article ID.
-    - `producer_id`: ID of the article's producer.
-    - ... (continue for other fields)
+    - `event_timestamp`: Timestamp at which the interaction happened.
+    - `interaction_type`: Type of the interaction - content present/pulled out.
+    - `item_id`: ID of the item on the platform.
+    - `producer_id`: ID of the producer.
+    - `producer_session_id`: ID of the session when the producer interacted with the item.
+    - `producer_device_info`: Information about the device used by the producer.
+    - `producer_location`: Location of the producer.
+    - `producer_country`: Country of the producer.
+    - `item_type`: Type of item on the platform, such as HTML, VIDEO, RICH.
+    - `item_url`: URL of the item.
+    - `title`: Title of the content.
+    - `text_description`: Description of the content.
+    - `language`: Language of the content on the platform.
+
 
 ## Procedure:
 
