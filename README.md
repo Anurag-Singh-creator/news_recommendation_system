@@ -2,13 +2,13 @@
 
 ## Problem Statement
 
-At **iPrint**, an emerging media house in India, we offer media and information services spanning various domains, from sports and weather to healthcare and stocks. Through our online platform, we have consistently delivered timely news to the masses. However, as technology advanced, we faced increasing competition.
+**iPrint**, an emerging media house in India, offer media and information services spanning various domains, from sports and weather to healthcare and stocks. Through our online platform, the company has consistently delivered timely news to the masses. However, as technology advanced, the company faced increasing competition.
 
-In the past, our strategy was to recommend popular news or articles similar to what users previously read. This often led to irrelevant suggestions. As a result, we started losing users and revenue.
+In the past, the strategy was to recommend popular news or articles similar to what users previously read. This often led to irrelevant suggestions. As a result, the company started losing users and revenue.
 
-To address this decline, we are aiming to personalize user preferences. Our goal is to introduce fresh content daily and assess its impact through user clicks. Furthermore, if a user clicks on a news item, we'll recommend similar articles at the end of the clicked article. This strategy will help us deduce user interests.
+To address this decline, company is aiming to personalize user preferences. The goal is to introduce fresh content daily and assess its impact through user clicks. Furthermore, if a user clicks on a news item, then recommend similar articles at the end of the clicked article. This strategy will help us deduce user interests.
 
-I've been tasked as the data scientist to support iPrint in realizing this vision. Using my acquired skills, I am to develop a system that suggests pertinent news articles based on user search history and preferences.
+The aim here is to develop a system that suggests pertinent news articles based on user search history and preferences.
 
 Our objectives are:
 
